@@ -1,0 +1,19 @@
+{
+    "name": "micro-frontends",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install:index": "cd design-center-index && npm install",
+        "install:main": "cd design-center-main && npm install",
+        "install": "npm-run-all --parallel install:*",
+        "serve:index": "cd design-center-index && npm run serve",
+        "serve:main": "cd design-center-main && npm run serve",
+        "serve": "npm-run-all --parallel serve:*",
+        "build:index": "cd design-center-index && npm run build",
+        "build:main": "cd design-center-main && npm run build",
+        "build": "npm-run-all --parallel build:*"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
+}
