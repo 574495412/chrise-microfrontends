@@ -1,4 +1,4 @@
-# micro-frontends
+# chrise-micro-frontends
 
 基于qiankun2.0的 micro-frontends 
 
@@ -30,7 +30,7 @@
 - [x] 跨应用通信与vuex结合
 
 ## 主应用基座构建
-主应用需要用到elementui，暂时使用vue2.0+qiankun2.0版本。vue3.0beta体验在下面【子应用构建】章节
+主应用需要用到使用vue2.0+qiankun2.0版本。vue3.0beta体验在下面【子应用构建】章节
 
 主应用项目主要在5个文件：`utils`文件夹，`app.vue`，`appRegister.js`，`main.js`，`render.js`
 
